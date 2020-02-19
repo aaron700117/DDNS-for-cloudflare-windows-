@@ -1,6 +1,7 @@
 @echo off
 
-cd C:\Users\Aaron\Desktop\CloudFlare_DDNS
+rem #### change to your work path ###
+cd %CD%
 
 set CONFIG=cf_param.ini
 set /P CF_EMAIL="input E-mail of CloudFlare's account:"
