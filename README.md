@@ -16,7 +16,8 @@ As long as DNS RECORD ID has not changed
 
 Other
 
-Only update TYPE A DNS Record 
+This batch only update TYPE A DNS Record.
+
 
 
 How to find Cloudflare Zone id to configure it with WP Rocket?
