@@ -4,14 +4,12 @@ rem #### change to your work path ###
 cd %CD%
 
 set CONFIG=cf_param.ini
+
 set /P CF_EMAIL="input E-mail of CloudFlare's account:"
-echo %CF_EMAIL%
 
 set /P CF_ZONE_ID="input Zone ID:"
-echo %CF_ZONE_ID%
 
 set /P CF_GLOBAL_KEY="input Global Key:"
-echo %CF_GLOBAL_KEY%
 
 echo ------Get Zone Information------
 curl -X GET "https://api.cloudflare.com/client/v4/zones/%CF_ZONE_ID%/dns_records" -H "x-auth-email:%CF_EMAIL%" -H "x-auth-key:%CF_GLOBAL_KEY%" -H "content-type: application/json" > cf.json
