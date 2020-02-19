@@ -1,9 +1,9 @@
 # DDNS-for-cloudflare-windows-
- auto update dymanic ip for cloudflare dns
+Auto update dymanic ip for cloudflare dns
 
 Step1:
-run init.cmd
-input email of cf's account, cf zone id, cf global key
+Run init.cmd
+Input email of cf's account, cf zone id, cf global key
 
 Step2:
 After initialization, you can run update_cf_ddns.cmd directly.
