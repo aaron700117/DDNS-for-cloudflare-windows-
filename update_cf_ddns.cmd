@@ -1,5 +1,5 @@
 @echo off
-cd C:\Users\Aaron\Desktop\CloudFlare_DDNS
+cd %CD%
 
 echo ----------Get Current IP----------
 rem curl http://ipv4.icanhazip.com/ > dymanic_ip.txt
