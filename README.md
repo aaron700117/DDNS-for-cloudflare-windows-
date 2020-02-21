@@ -8,10 +8,10 @@ Run init.cmd
 (執行 init.cmd)
 
 
-Input email of cf's account, cf Zone id, cf Global API key
+Input email of cf's account, cf Zone id, cf API key
 
 
-(輸入 cf註冊的email, cf的Zone id, cf的全域API KEY)
+(輸入 cf註冊的email, cf的Zone id, cf的API KEY)
 
 Step2:
 
