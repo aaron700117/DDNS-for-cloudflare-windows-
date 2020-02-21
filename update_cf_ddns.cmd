@@ -1,5 +1,5 @@
 @echo off
-cd %CD%
+cd /D %~dp0
 
 echo ----------Get Current IP----------
 rem curl http://ipv4.icanhazip.com/ > dymanic_ip.txt
