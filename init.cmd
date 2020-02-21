@@ -1,7 +1,7 @@
 @echo off
 
 rem #### change to your work path ###
-cd %CD%
+cd /D %~dp0
 
 set CONFIG=cf_param.ini
 
