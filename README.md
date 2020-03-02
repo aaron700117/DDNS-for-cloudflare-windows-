@@ -1,18 +1,21 @@
 # DDNS-for-cloudflare-windows-
-## Auto update dymanic ip for cloudflare dns ##
+### Auto update dymanic ip for cloudflare dns ###
+
+-----------------------------------
 
 ### Step1: ###
 
-Run init.cmd
+Run
+    init.cmd
 
 (執行 init.cmd)
 
 
 Input email of cf's account, cf Zone id, cf API key
 
-
 (輸入 cf註冊的email, cf的Zone id, cf的API KEY)
 
+-----------------------------------
 ### Step2: ###
 
 
@@ -25,6 +28,7 @@ As long as DNS RECORD ID has not changed
 
 (只要DNS RECORD ID沒有改變)
 
+-----------------------------------
 ### Other ###
 
 This batch only update TYPE A DNS Record.
@@ -55,6 +59,7 @@ To generate an API token:
 
 https://support.cloudflare.com/hc/en-us/articles/200167836-Where-do-I-find-my-Cloudflare-API-key-
 
+-----------------------------------
 ### References: ###
 
 (參考資料:)
